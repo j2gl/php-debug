@@ -1,7 +1,9 @@
 <?php
 
-if ($_GET['info'] == 1) {
+$s = "Hello World!";
+if (isset($_GET['info']) && $_GET['info'] == 1) {
     phpinfo();
 } else {
-    echo "Hello World!";
+    echo $s;
+    var_dump($s);
 }
