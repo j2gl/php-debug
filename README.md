@@ -1,6 +1,6 @@
 # php-debug
 
-This is an apache php image with xdebug installed to be ready for debug in any IDEs.
+This is an apache php docker image with xdebug installed to be ready for debugging in any IDE.
 
 ## Running
 
