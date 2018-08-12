@@ -7,5 +7,3 @@ services:
       - ./src:/var/www/html/
     ports:
       - "80:80"
-    extra_hosts:
-      - "dockerhost:192.168.70.116"
