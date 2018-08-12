@@ -7,7 +7,7 @@ This is an image with docker and php for debugging purpouses.
 1. *Important* set your host ip (local machine) in `docker-compose.yml` file, something like this `dockerhost:192.168.70.116`
 2. Run `docker-compose up`
 3. Go to Visual Code or PhpStorm and configure it.
-4. Go to http://localhost/test-debug.php
+4. Go to http://localhost/test-debug.php to test it or http://localhost/test-debug.php?info=1 to see phpinfo()
 
 
 ### Visual Studio Code
