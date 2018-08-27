@@ -1,3 +1,12 @@
+# Common files by operating systems
+.DS_Store
+.Spotlight-V100
+.Trashes
+.gradle
+ehthumbs.db
+Thumbs.db
+temp/
+
 # Editors
 .idea
 .vscode
