@@ -5,8 +5,12 @@ This is an apache php docker image with xdebug installed to be ready for debuggi
 ## Running
 
 1. Run `docker-compose up`
-2. Go to Visual Code or PhpStorm and configure it.
-3. Go to http://localhost/test-debug.php to test it or http://localhost/test-debug.php?info=1 to see phpinfo()
+2. Run and build `docker-compose up --build`
+
+# Debug
+
+1. Go to Visual Code or PhpStorm and configure it.
+2. Go to http://localhost/test-debug.php to test it or http://localhost/test-debug.php?info=1 to see phpinfo()
 
 ### Visual Studio Code
 

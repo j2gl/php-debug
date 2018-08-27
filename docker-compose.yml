@@ -1,7 +1,8 @@
 version: '3'
 services:
   apache-php:  
-    build: .
+    build:
+      context: ./docker
     container_name: apache-php
     volumes:
       - ./src:/var/www/html/
